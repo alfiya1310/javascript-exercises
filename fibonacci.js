@@ -13,7 +13,6 @@ function fibonacci(num) {
 }
 
 let ans = fibonacci(10);
-for(element of ans)
-{
+for(element of ans) {
     console.log(element);
 }
