@@ -1,11 +1,9 @@
-function fibonacci(num)
-{
+function fibonacci(num) {
     let array1 = [];
 	let num1 = 0;
 	let num2 = 1;
 	let temp;
-	for (let i = 1; i <= num; i++)
-	{
+	for (let i = 1; i <= num; i++) {
 	    array1.push(num1);
 		temp = num1 + num2;
 		num1 = num2;
